@@ -7,19 +7,15 @@ public class GameManager : MonoBehaviour {
 	[Range(0,100)]
 	public float PlayerHealth = 100;
     public bool gameStarted = false;
-
 	public Transform[] EnemySpawnPoints;
-
 	public GameObject EnemyPrefab;
-
 	public GameObject CurrentTower;
-
 	private List<GameObject> Enemies;
-	
 	private GvrViewer gvrViewer;
 
 	void Awake(){
 		this.gvrViewer = GameObject.FindGameObjectWithTag("GvrViewerMain").GetComponent<GvrViewer>();
+		this.gvrViewer.Recenter();
 	}
 	void Start () {
 		this.Enemies = new List<GameObject>();
