@@ -94,6 +94,7 @@
      <Compile Include="Assets\Scripts\EnemyController.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Helpers.cs" />
+     <Compile Include="Assets\Scripts\MainMenuController.cs" />
      <Compile Include="Assets\Scripts\MenuController.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\QualityConfig.cs" />
@@ -135,6 +136,7 @@
      <Compile Include="Assets\ThirdParty\Explosion System\Scripts\PhysicalExplosion.cs" />
      <Compile Include="Assets\ThirdParty\Explosion System\Scripts\light_control.cs" />
      <Compile Include="Assets\ThirdParty\TornadoBanditsStudio\Low Poly Free Pack\Scripts\TBS_CameraMovement.cs" />
+     <None Include="Assets\REMINDER.txt" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />

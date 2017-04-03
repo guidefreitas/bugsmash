@@ -1,0 +1,5 @@
+﻿
+1) Add GvrMainViewer to Scene
+2) Add Raycaster to MainCamera
+3) Add EventSystem to Scene
+4) Add GazeInputModule to EventSystem (move to first position)

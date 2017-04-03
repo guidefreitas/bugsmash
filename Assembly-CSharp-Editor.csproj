@@ -55,6 +55,7 @@
      <Compile Include="Assets\GoogleVR\Legacy\Editor\GvrViewerEditor.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Editor\StereoControllerEditor.cs" />
      <Compile Include="Assets\ThirdParty\TornadoBanditsStudio\Editor\TBS_PresentationWindow.cs" />
+     <None Include="Assets\REMINDER.txt" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
