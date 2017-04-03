@@ -15,9 +15,16 @@ public class GameManager : MonoBehaviour {
 	public GameObject CurrentTower;
 
 	private List<GameObject> Enemies;
-	// Use this for initialization
+	
+	private GvrViewer gvrViewer;
+
+	void Awake(){
+		this.gvrViewer = GameObject.FindGameObjectWithTag("GvrViewerMain").GetComponent<GvrViewer>();
+	}
 	void Start () {
 		this.Enemies = new List<GameObject>();
+		var VRMode = PlayerPrefs.GetInt("VRMode");
+		this.gvrViewer.VRModeEnabled = VRMode == 0 ? false : true;
 	}
 	
 	void SpawnEnemies(){

@@ -25,5 +25,6 @@ public class MainMenuController : MonoBehaviour {
 	public void ToggleVRMode(){
 		Debug.Log("ToggleVR clicked");
 		this.gvrMain.VRModeEnabled = !this.gvrMain.VRModeEnabled;
+		PlayerPrefs.SetInt("VRMode", this.gvrMain.VRModeEnabled == true ? 1 : 0);
 	}
 }

@@ -133,6 +133,12 @@
  <Reference Include="Google.ProtocolBuffers">
  <HintPath>/Users/guilherme/Projects/Games/BugSmash/bugsmash/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
+ <Reference Include="TextMeshPro">
+ <HintPath>/Users/guilherme/Projects/Games/BugSmash/bugsmash/Assets/TextMesh Pro/Plugins/TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-Editor">
+ <HintPath>/Users/guilherme/Projects/Games/BugSmash/bugsmash/Assets/TextMesh Pro/Plugins/Editor/TextMeshPro-Editor.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
@@ -144,12 +150,6 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="TextMeshPro">
- <HintPath>/Users/guilherme/Projects/Games/BugSmash/bugsmash/Assets/TextMesh Pro/Plugins/TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="TextMeshPro-Editor">
- <HintPath>/Users/guilherme/Projects/Games/BugSmash/bugsmash/Assets/TextMesh Pro/Plugins/Editor/TextMeshPro-Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
